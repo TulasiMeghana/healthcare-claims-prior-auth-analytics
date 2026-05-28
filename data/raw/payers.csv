@@ -1,0 +1,10 @@
+payer_id,payer_name,payer_type,contract_model
+PAY-001,Blue Horizon Health,Commercial,Capitated
+PAY-002,Lone Star Choice,Medicaid,Capitated
+PAY-003,Pioneer Medicare,Medicaid,Capitated
+PAY-004,Cedar Medicaid,Commercial,Value Based
+PAY-005,Atlas Commercial,Medicare Advantage,Value Based
+PAY-006,BrightPath Health,Medicare Advantage,Value Based
+PAY-007,Summit Self Pay,Medicaid,Capitated
+PAY-008,Unity Advantage,Self Pay,Value Based
+PAY-009,ClearCare Plus,Medicaid,Value Based

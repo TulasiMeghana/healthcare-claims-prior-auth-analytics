@@ -1,0 +1,15 @@
+check_name,severity,status,failed_records,description
+duplicate_claim_ids,critical,PASS,0,Claim IDs should be unique.
+duplicate_authorization_ids,critical,PASS,0,Authorization IDs should be unique.
+claims_missing_required_keys,critical,PASS,0,Claims must have required business keys.
+claims_broken_patient_fk,critical,PASS,0,Every claim patient_id should exist in patients.
+claims_broken_provider_fk,critical,PASS,0,Every claim provider_id should exist in providers.
+claims_broken_payer_fk,critical,PASS,0,Every claim payer_id should exist in payers.
+invalid_claim_status,high,PASS,0,Claim statuses should match expected values.
+invalid_authorization_status,high,PASS,0,Authorization statuses should match expected values.
+negative_financial_values,critical,PASS,0,Financial values should not be negative.
+paid_exceeds_allowed,high,PASS,0,Paid amount should not exceed allowed amount.
+claim_submission_before_service,medium,PASS,0,Claim submission date should be on/after service date.
+auth_decision_before_request,high,PASS,0,Authorization decision date should be on/after request date.
+denied_claim_missing_reason,medium,PASS,0,Denied claims should include a denial reason.
+denied_auth_missing_reason,medium,PASS,0,Denied authorizations should include a denial reason.

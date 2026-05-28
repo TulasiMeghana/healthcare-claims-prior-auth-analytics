@@ -1,0 +1,181 @@
+provider_id,provider_name,specialty,facility_type,region,network_status
+PRV-00001,Anderson Specialty Clinic 1,Cardiology,Surgery Center,Houston Metro,Out of Network
+PRV-00002,Taylor Imaging Center 2,Oncology,Imaging Center,Houston Metro,In Network
+PRV-00003,Johnson Specialty Clinic 3,Neurology,Specialty Clinic,Houston Metro,In Network
+PRV-00004,White Specialty Clinic 4,Dermatology,Hospital,Austin Metro,In Network
+PRV-00005,Brown Clinic 5,Radiology,Hospital,East Texas,In Network
+PRV-00006,Davis Specialty Clinic 6,Gastroenterology,Specialty Clinic,San Antonio,In Network
+PRV-00007,Martin Specialty Clinic 7,Dermatology,Specialty Clinic,Austin Metro,Out of Network
+PRV-00008,Davis Specialty Clinic 8,Primary Care,Imaging Center,Houston Metro,In Network
+PRV-00009,Davis Surgery Center 9,Cardiology,Imaging Center,Austin Metro,In Network
+PRV-00010,Taylor Surgery Center 10,Neurology,Clinic,North Texas,Out of Network
+PRV-00011,Martin Imaging Center 11,Orthopedics,Imaging Center,Central Texas,Out of Network
+PRV-00012,Moore Specialty Clinic 12,Gastroenterology,Hospital,San Antonio,In Network
+PRV-00013,Brown Hospital 13,Cardiology,Specialty Clinic,Austin Metro,In Network
+PRV-00014,Miller Specialty Clinic 14,Neurology,Hospital,San Antonio,Out of Network
+PRV-00015,Johnson Specialty Clinic 15,Pulmonology,Hospital,Central Texas,In Network
+PRV-00016,Johnson Clinic 16,Primary Care,Hospital,Central Texas,In Network
+PRV-00017,Smith Clinic 17,Cardiology,Specialty Clinic,Austin Metro,In Network
+PRV-00018,Martin Clinic 18,Primary Care,Clinic,San Antonio,Out of Network
+PRV-00019,White Surgery Center 19,Cardiology,Clinic,San Antonio,In Network
+PRV-00020,Anderson Hospital 20,Radiology,Surgery Center,North Texas,In Network
+PRV-00021,Moore Specialty Clinic 21,Oncology,Imaging Center,East Texas,In Network
+PRV-00022,Garcia Specialty Clinic 22,Pulmonology,Clinic,Austin Metro,In Network
+PRV-00023,Davis Hospital 23,Radiology,Imaging Center,Austin Metro,Out of Network
+PRV-00024,Thomas Clinic 24,Primary Care,Clinic,Central Texas,In Network
+PRV-00025,Smith Surgery Center 25,Physical Therapy,Hospital,North Texas,In Network
+PRV-00026,Taylor Imaging Center 26,Dermatology,Surgery Center,Austin Metro,Out of Network
+PRV-00027,Thomas Clinic 27,Primary Care,Surgery Center,Austin Metro,Out of Network
+PRV-00028,Martin Surgery Center 28,Oncology,Clinic,North Texas,In Network
+PRV-00029,Martin Imaging Center 29,Oncology,Clinic,East Texas,In Network
+PRV-00030,Moore Imaging Center 30,Primary Care,Surgery Center,San Antonio,In Network
+PRV-00031,Martin Specialty Clinic 31,Dermatology,Imaging Center,San Antonio,In Network
+PRV-00032,Smith Imaging Center 32,Pulmonology,Hospital,Austin Metro,In Network
+PRV-00033,Wilson Imaging Center 33,Pulmonology,Hospital,Austin Metro,In Network
+PRV-00034,Martin Hospital 34,Physical Therapy,Specialty Clinic,Austin Metro,In Network
+PRV-00035,Moore Specialty Clinic 35,Physical Therapy,Specialty Clinic,San Antonio,In Network
+PRV-00036,Brown Surgery Center 36,Pulmonology,Surgery Center,San Antonio,In Network
+PRV-00037,Smith Imaging Center 37,Dermatology,Surgery Center,Central Texas,In Network
+PRV-00038,Garcia Specialty Clinic 38,Gastroenterology,Surgery Center,North Texas,In Network
+PRV-00039,Moore Hospital 39,Primary Care,Clinic,Central Texas,In Network
+PRV-00040,Jackson Surgery Center 40,Pulmonology,Specialty Clinic,San Antonio,Out of Network
+PRV-00041,Miller Surgery Center 41,Primary Care,Imaging Center,North Texas,In Network
+PRV-00042,Smith Specialty Clinic 42,Radiology,Hospital,North Texas,In Network
+PRV-00043,Jackson Imaging Center 43,Pulmonology,Imaging Center,North Texas,In Network
+PRV-00044,Perez Imaging Center 44,Cardiology,Hospital,Austin Metro,In Network
+PRV-00045,Miller Clinic 45,Cardiology,Specialty Clinic,East Texas,In Network
+PRV-00046,Davis Imaging Center 46,Cardiology,Specialty Clinic,East Texas,In Network
+PRV-00047,Davis Surgery Center 47,Oncology,Hospital,Central Texas,In Network
+PRV-00048,White Imaging Center 48,Pulmonology,Specialty Clinic,North Texas,In Network
+PRV-00049,Taylor Imaging Center 49,Oncology,Hospital,North Texas,Out of Network
+PRV-00050,Jackson Imaging Center 50,Radiology,Surgery Center,North Texas,In Network
+PRV-00051,Davis Clinic 51,Dermatology,Hospital,Central Texas,Out of Network
+PRV-00052,Jackson Surgery Center 52,Primary Care,Specialty Clinic,North Texas,Out of Network
+PRV-00053,Johnson Clinic 53,Physical Therapy,Hospital,East Texas,Out of Network
+PRV-00054,Lee Imaging Center 54,Primary Care,Surgery Center,Central Texas,In Network
+PRV-00055,Davis Imaging Center 55,Gastroenterology,Hospital,San Antonio,In Network
+PRV-00056,Thomas Imaging Center 56,Primary Care,Clinic,North Texas,In Network
+PRV-00057,Miller Hospital 57,Oncology,Surgery Center,Central Texas,In Network
+PRV-00058,Lee Clinic 58,Physical Therapy,Specialty Clinic,Houston Metro,In Network
+PRV-00059,Garcia Clinic 59,Radiology,Specialty Clinic,East Texas,In Network
+PRV-00060,Johnson Clinic 60,Cardiology,Specialty Clinic,Houston Metro,Out of Network
+PRV-00061,Miller Surgery Center 61,Cardiology,Clinic,Houston Metro,In Network
+PRV-00062,Garcia Clinic 62,Radiology,Hospital,Austin Metro,In Network
+PRV-00063,Davis Hospital 63,Primary Care,Clinic,Austin Metro,In Network
+PRV-00064,Lee Specialty Clinic 64,Radiology,Clinic,North Texas,Out of Network
+PRV-00065,Taylor Clinic 65,Pulmonology,Specialty Clinic,Houston Metro,In Network
+PRV-00066,Thomas Imaging Center 66,Neurology,Hospital,San Antonio,In Network
+PRV-00067,Lee Specialty Clinic 67,Pulmonology,Specialty Clinic,Central Texas,Out of Network
+PRV-00068,Lee Imaging Center 68,Orthopedics,Specialty Clinic,Houston Metro,In Network
+PRV-00069,White Clinic 69,Physical Therapy,Clinic,San Antonio,In Network
+PRV-00070,Davis Surgery Center 70,Neurology,Imaging Center,San Antonio,In Network
+PRV-00071,Garcia Clinic 71,Oncology,Imaging Center,North Texas,In Network
+PRV-00072,Martin Hospital 72,Orthopedics,Clinic,Austin Metro,Out of Network
+PRV-00073,Wilson Imaging Center 73,Gastroenterology,Imaging Center,San Antonio,In Network
+PRV-00074,Moore Imaging Center 74,Orthopedics,Surgery Center,San Antonio,In Network
+PRV-00075,Taylor Specialty Clinic 75,Physical Therapy,Clinic,East Texas,In Network
+PRV-00076,Wilson Specialty Clinic 76,Pulmonology,Hospital,East Texas,Out of Network
+PRV-00077,Anderson Specialty Clinic 77,Pulmonology,Hospital,San Antonio,In Network
+PRV-00078,Miller Imaging Center 78,Neurology,Surgery Center,East Texas,Out of Network
+PRV-00079,Anderson Surgery Center 79,Orthopedics,Specialty Clinic,North Texas,In Network
+PRV-00080,Johnson Surgery Center 80,Gastroenterology,Imaging Center,East Texas,In Network
+PRV-00081,Jackson Surgery Center 81,Dermatology,Imaging Center,Houston Metro,In Network
+PRV-00082,Martin Hospital 82,Neurology,Specialty Clinic,Central Texas,In Network
+PRV-00083,Smith Specialty Clinic 83,Primary Care,Specialty Clinic,Houston Metro,Out of Network
+PRV-00084,Thomas Clinic 84,Primary Care,Surgery Center,East Texas,In Network
+PRV-00085,Smith Specialty Clinic 85,Cardiology,Hospital,North Texas,Out of Network
+PRV-00086,Brown Surgery Center 86,Pulmonology,Surgery Center,North Texas,In Network
+PRV-00087,Smith Hospital 87,Radiology,Imaging Center,East Texas,Out of Network
+PRV-00088,Martin Clinic 88,Orthopedics,Hospital,East Texas,In Network
+PRV-00089,Jackson Hospital 89,Radiology,Imaging Center,East Texas,Out of Network
+PRV-00090,Miller Clinic 90,Cardiology,Hospital,Central Texas,In Network
+PRV-00091,Thomas Specialty Clinic 91,Radiology,Clinic,North Texas,In Network
+PRV-00092,Lee Clinic 92,Cardiology,Imaging Center,North Texas,In Network
+PRV-00093,Miller Imaging Center 93,Dermatology,Imaging Center,Austin Metro,In Network
+PRV-00094,Thomas Clinic 94,Gastroenterology,Imaging Center,North Texas,Out of Network
+PRV-00095,White Clinic 95,Gastroenterology,Hospital,Central Texas,In Network
+PRV-00096,Johnson Imaging Center 96,Dermatology,Imaging Center,East Texas,In Network
+PRV-00097,Moore Clinic 97,Primary Care,Clinic,Austin Metro,In Network
+PRV-00098,Wilson Imaging Center 98,Primary Care,Hospital,East Texas,Out of Network
+PRV-00099,Brown Clinic 99,Oncology,Imaging Center,Central Texas,Out of Network
+PRV-00100,Wilson Surgery Center 100,Primary Care,Specialty Clinic,San Antonio,In Network
+PRV-00101,Anderson Clinic 101,Cardiology,Specialty Clinic,Houston Metro,In Network
+PRV-00102,Brown Hospital 102,Radiology,Specialty Clinic,San Antonio,Out of Network
+PRV-00103,Jackson Imaging Center 103,Neurology,Imaging Center,East Texas,In Network
+PRV-00104,Davis Clinic 104,Radiology,Surgery Center,North Texas,In Network
+PRV-00105,Lee Surgery Center 105,Dermatology,Specialty Clinic,North Texas,In Network
+PRV-00106,Martin Specialty Clinic 106,Physical Therapy,Specialty Clinic,North Texas,In Network
+PRV-00107,Martin Surgery Center 107,Gastroenterology,Imaging Center,North Texas,In Network
+PRV-00108,Moore Surgery Center 108,Pulmonology,Imaging Center,East Texas,In Network
+PRV-00109,Wilson Hospital 109,Dermatology,Imaging Center,Houston Metro,In Network
+PRV-00110,Jackson Hospital 110,Primary Care,Clinic,Austin Metro,In Network
+PRV-00111,Martin Hospital 111,Radiology,Imaging Center,North Texas,In Network
+PRV-00112,Jackson Clinic 112,Cardiology,Surgery Center,Central Texas,Out of Network
+PRV-00113,Thomas Imaging Center 113,Orthopedics,Surgery Center,Central Texas,In Network
+PRV-00114,Perez Specialty Clinic 114,Oncology,Hospital,San Antonio,In Network
+PRV-00115,Miller Specialty Clinic 115,Orthopedics,Hospital,Central Texas,In Network
+PRV-00116,Brown Clinic 116,Primary Care,Clinic,San Antonio,In Network
+PRV-00117,Lee Clinic 117,Radiology,Hospital,North Texas,In Network
+PRV-00118,Lee Specialty Clinic 118,Oncology,Hospital,North Texas,In Network
+PRV-00119,Brown Clinic 119,Physical Therapy,Surgery Center,Austin Metro,In Network
+PRV-00120,Davis Specialty Clinic 120,Primary Care,Imaging Center,East Texas,In Network
+PRV-00121,Perez Imaging Center 121,Dermatology,Specialty Clinic,San Antonio,In Network
+PRV-00122,Miller Clinic 122,Orthopedics,Specialty Clinic,East Texas,In Network
+PRV-00123,Lee Imaging Center 123,Orthopedics,Surgery Center,North Texas,In Network
+PRV-00124,Moore Surgery Center 124,Orthopedics,Clinic,East Texas,In Network
+PRV-00125,Jackson Imaging Center 125,Pulmonology,Hospital,North Texas,In Network
+PRV-00126,Perez Clinic 126,Dermatology,Hospital,North Texas,Out of Network
+PRV-00127,Brown Clinic 127,Radiology,Hospital,Central Texas,In Network
+PRV-00128,Smith Hospital 128,Neurology,Surgery Center,East Texas,Out of Network
+PRV-00129,Brown Specialty Clinic 129,Orthopedics,Clinic,Houston Metro,Out of Network
+PRV-00130,Brown Specialty Clinic 130,Dermatology,Surgery Center,East Texas,In Network
+PRV-00131,Jackson Specialty Clinic 131,Cardiology,Surgery Center,North Texas,In Network
+PRV-00132,Lee Hospital 132,Pulmonology,Imaging Center,Houston Metro,In Network
+PRV-00133,Garcia Specialty Clinic 133,Radiology,Specialty Clinic,East Texas,In Network
+PRV-00134,White Hospital 134,Cardiology,Surgery Center,San Antonio,In Network
+PRV-00135,Johnson Imaging Center 135,Neurology,Surgery Center,San Antonio,In Network
+PRV-00136,Wilson Clinic 136,Pulmonology,Surgery Center,San Antonio,Out of Network
+PRV-00137,White Hospital 137,Pulmonology,Imaging Center,Houston Metro,Out of Network
+PRV-00138,Anderson Clinic 138,Cardiology,Specialty Clinic,Central Texas,In Network
+PRV-00139,White Hospital 139,Primary Care,Clinic,Central Texas,In Network
+PRV-00140,Anderson Specialty Clinic 140,Orthopedics,Hospital,Central Texas,In Network
+PRV-00141,Davis Clinic 141,Oncology,Clinic,Houston Metro,In Network
+PRV-00142,Taylor Hospital 142,Orthopedics,Specialty Clinic,East Texas,In Network
+PRV-00143,Lee Imaging Center 143,Dermatology,Specialty Clinic,East Texas,In Network
+PRV-00144,Smith Hospital 144,Primary Care,Hospital,North Texas,In Network
+PRV-00145,Johnson Imaging Center 145,Orthopedics,Hospital,Central Texas,In Network
+PRV-00146,Perez Surgery Center 146,Radiology,Hospital,East Texas,Out of Network
+PRV-00147,Moore Imaging Center 147,Neurology,Clinic,Central Texas,In Network
+PRV-00148,Lee Imaging Center 148,Primary Care,Surgery Center,Houston Metro,In Network
+PRV-00149,Smith Clinic 149,Radiology,Specialty Clinic,Central Texas,Out of Network
+PRV-00150,Perez Surgery Center 150,Gastroenterology,Imaging Center,Austin Metro,Out of Network
+PRV-00151,Brown Specialty Clinic 151,Pulmonology,Hospital,Central Texas,In Network
+PRV-00152,Smith Hospital 152,Dermatology,Clinic,Austin Metro,In Network
+PRV-00153,Garcia Surgery Center 153,Oncology,Surgery Center,San Antonio,In Network
+PRV-00154,Miller Specialty Clinic 154,Pulmonology,Hospital,North Texas,Out of Network
+PRV-00155,Smith Imaging Center 155,Neurology,Specialty Clinic,Houston Metro,In Network
+PRV-00156,Martin Surgery Center 156,Orthopedics,Hospital,San Antonio,In Network
+PRV-00157,Wilson Clinic 157,Physical Therapy,Surgery Center,North Texas,In Network
+PRV-00158,Jackson Surgery Center 158,Pulmonology,Imaging Center,Austin Metro,Out of Network
+PRV-00159,Martin Surgery Center 159,Primary Care,Surgery Center,Central Texas,In Network
+PRV-00160,Davis Clinic 160,Dermatology,Specialty Clinic,Austin Metro,In Network
+PRV-00161,Johnson Imaging Center 161,Dermatology,Imaging Center,Houston Metro,In Network
+PRV-00162,Johnson Surgery Center 162,Physical Therapy,Surgery Center,Central Texas,In Network
+PRV-00163,Wilson Hospital 163,Dermatology,Surgery Center,Houston Metro,In Network
+PRV-00164,Martin Hospital 164,Gastroenterology,Hospital,Central Texas,Out of Network
+PRV-00165,Martin Hospital 165,Physical Therapy,Clinic,North Texas,In Network
+PRV-00166,Davis Imaging Center 166,Neurology,Surgery Center,East Texas,In Network
+PRV-00167,Thomas Specialty Clinic 167,Radiology,Imaging Center,East Texas,In Network
+PRV-00168,Johnson Specialty Clinic 168,Gastroenterology,Specialty Clinic,East Texas,In Network
+PRV-00169,Lee Hospital 169,Neurology,Imaging Center,East Texas,In Network
+PRV-00170,Martin Imaging Center 170,Neurology,Hospital,San Antonio,In Network
+PRV-00171,Moore Hospital 171,Oncology,Surgery Center,Central Texas,Out of Network
+PRV-00172,Johnson Imaging Center 172,Pulmonology,Hospital,Central Texas,In Network
+PRV-00173,Wilson Clinic 173,Neurology,Clinic,North Texas,In Network
+PRV-00174,Jackson Specialty Clinic 174,Gastroenterology,Surgery Center,North Texas,In Network
+PRV-00175,Taylor Imaging Center 175,Gastroenterology,Surgery Center,East Texas,In Network
+PRV-00176,Taylor Surgery Center 176,Radiology,Surgery Center,Austin Metro,In Network
+PRV-00177,Taylor Imaging Center 177,Neurology,Imaging Center,Central Texas,In Network
+PRV-00178,White Imaging Center 178,Physical Therapy,Surgery Center,East Texas,In Network
+PRV-00179,Martin Clinic 179,Physical Therapy,Hospital,Houston Metro,In Network
+PRV-00180,Miller Imaging Center 180,Oncology,Imaging Center,North Texas,In Network
