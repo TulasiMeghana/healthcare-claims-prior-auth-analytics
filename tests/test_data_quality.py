@@ -41,6 +41,9 @@ def test_core_marts_have_rows():
         "mart_authorization_turnaround",
         "mart_prior_auth_queue",
         "mart_claim_aging_buckets",
+        "mart_authorization_sla",
+        "mart_revenue_leakage_risk",
+        "mart_payer_risk_score",
     ]
     with duckdb.connect(DB_PATH.as_posix(), read_only=True) as con:
         for table in tables:

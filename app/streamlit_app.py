@@ -32,6 +32,11 @@ aging = query("SELECT * FROM mart_claim_aging_buckets")
 denials = query("SELECT * FROM mart_denial_reasons")
 quality = query("SELECT * FROM mart_data_quality_checks ORDER BY severity, check_name")
 
+auth_sla = query("SELECT * FROM mart_authorization_sla")
+revenue_risk = query("SELECT * FROM mart_revenue_leakage_risk LIMIT 100")
+payer_risk = query("SELECT * FROM mart_payer_risk_score")
+
+
 latest = monthly.sort_values("service_month").tail(1).iloc[0]
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("Latest Month Claims", f"{int(latest['claim_count']):,}")
@@ -90,6 +95,59 @@ st.dataframe(
     hide_index=True,
 )
 
+st.subheader("Payer Risk Score")
+st.dataframe(
+    payer_risk[
+        [
+            "payer_name",
+            "claim_count",
+            "denial_rate_pct",
+            "open_balance",
+            "avg_claim_age_days",
+            "auth_sla_breach_rate_pct",
+            "payer_risk_score",
+            "payer_risk_tier",
+        ]
+    ],
+    width="stretch",
+    hide_index=True,
+)
+
+st.subheader("Authorization SLA Breach Rate")
+st.dataframe(
+    auth_sla[
+        [
+            "payer_name",
+            "specialty",
+            "clinical_priority",
+            "total_authorizations",
+            "sla_breached_count",
+            "sla_breach_rate_pct",
+        ]
+    ],
+    width="stretch",
+    hide_index=True,
+)
+
+st.subheader("Revenue Leakage Risk Queue")
+st.dataframe(
+    revenue_risk[
+        [
+            "claim_id",
+            "payer_name",
+            "provider_name",
+            "specialty",
+            "claim_status",
+            "aging_bucket",
+            "balance_amount",
+            "denial_reason",
+            "revenue_leakage_risk",
+        ]
+    ],
+    width="stretch",
+    hide_index=True,
+)
+
 st.subheader("Data Quality Report")
 failed = quality[quality["status"] == "FAIL"]
 if failed.empty:
@@ -97,3 +155,5 @@ if failed.empty:
 else:
     st.warning(f"{len(failed)} checks failed. Review before trusting dashboard metrics.")
 st.dataframe(quality,width="stretch", hide_index=True)
+
+
