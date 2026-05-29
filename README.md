@@ -1,10 +1,5 @@
 # Healthcare Claims & Prior Authorization Analytics Platform
-
-A portfolio-ready healthcare analytics project built for Data Analyst / Analytics Engineer roles at healthcare, product, and GovTech companies.
-
-This project uses **synthetic healthcare data** to simulate the type of work an analyst would perform for claims operations, prior authorization monitoring, payer/provider performance, and client-facing reporting.
-
-> Built as an original project structure. It is safe to use as a personal GitHub portfolio project after you run it, review the code, and customize the README/screenshots with your own results.
+An end-to-end healthcare analytics project that simulates claims operations, prior authorization monitoring, payer/provider performance, revenue leakage risk, and data quality validation using synthetic data.
 
 ---
 
@@ -154,6 +149,20 @@ No real patient data is used.
 | `mart_claim_aging_buckets` | 0-30, 31-60, 61-90, and 90+ day unpaid claim buckets |
 
 ---
+## Custom business rules
+
+### Authorization SLA breach rate
+
+An authorization is treated as an SLA breach if it is still pending after 7 days or if an approved/denied authorization took more than 5 days to receive a decision.
+
+### Revenue leakage risk
+
+A claim is classified as higher revenue leakage risk when it has an unpaid balance and is denied, partially paid, or aged into the 90+ day bucket.
+
+### Payer risk score
+
+The payer risk score combines denial rate, open balance, average claim age, and authorization SLA breach rate to assign each payer a low, medium, or high risk tier.
+
 
 ## Data quality checks
 
@@ -183,38 +192,3 @@ mart_data_quality_checks
 ```
 
 ---
-
-## Example resume bullets
-
-After customizing and running this project, you can use bullets like:
-
-- Built an end-to-end healthcare analytics platform using synthetic claims, encounters, payer, provider, and prior authorization data to monitor denial rates, claim aging, authorization turnaround, and unpaid balances.
-- Modeled raw healthcare CSVs into staging tables, dimensions, facts, and business-ready marts using SQL and DuckDB.
-- Developed data quality checks for duplicate keys, broken foreign keys, invalid statuses, missing denial reasons, negative financial values, and inconsistent authorization dates.
-- Created an interactive Streamlit dashboard with payer/provider drilldowns, denial trends, authorization queue monitoring, aging buckets, and monthly KPI tracking.
-- Documented business definitions, assumptions, and metric logic to support reproducible stakeholder reporting.
-
----
-
-## How to make this truly yours
-
-Before publishing to GitHub:
-
-1. Run the pipeline locally.
-2. Add your own screenshots from Streamlit.
-3. Modify at least 3 KPIs or business rules.
-4. Add a short `insights.md` file with your findings.
-5. Push commits gradually instead of uploading everything in one commit.
-6. Be ready to explain every SQL model and quality check.
-
----
-
-## Interview story
-
-**Situation:** Healthcare operations teams need reliable reporting on claims and authorizations.
-
-**Task:** Build a reproducible analytics workflow from raw synthetic data to business-ready metrics.
-
-**Action:** Generated synthetic healthcare data, modeled it in SQL, created quality checks, and built an interactive dashboard.
-
-**Result:** Produced a portfolio project showing SQL modeling, healthcare metrics, data validation, documentation, and stakeholder-friendly reporting.
