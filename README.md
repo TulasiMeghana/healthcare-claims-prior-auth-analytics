@@ -117,6 +117,13 @@ streamlit run app/streamlit_app.py
 ```
 
 ---
+## Dashboard Preview
+
+![Dashboard Overview](assets/dashboard-overview.png)
+![Payer Performance](assets/payer-performance.png)
+![Prior Authorization Queue](assets/prior-auth-queue.png)
+![Data Quality Report](assets/data-quality-report.png)
+
 
 ## Synthetic data model
 
